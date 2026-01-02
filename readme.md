@@ -42,10 +42,7 @@ npm run dev
 Ouvrir index.html avec Live Server
 \`\`\`
 
-## 📸 Captures d'écran
-
-[Ajoutez des screenshots de votre application]
 
 ## 👨‍💻 Auteur
 
-Votre nom - [Votre GitHub]
+Guillaume PEYRE - https://github.com/PEYREGuillaume34
