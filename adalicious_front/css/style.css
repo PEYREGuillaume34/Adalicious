@@ -1,0 +1,277 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+
+
+
+
+}
+
+#kitchenMode {
+    float: right;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.2rem 0.5rem;
+}
+
+#welcome {
+    padding: 2rem 2rem 2rem;
+    height: 80vh;
+    width: 45vw;
+    border-radius: 1rem;
+
+}
+
+#welcomeBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 45vw;
+}
+
+
+#icon {
+    font-size: 3.5rem;
+}
+
+#inputName {
+    border-radius: 0.4rem;
+
+}
+
+#validate {
+    border-radius: 2rem;
+    padding: 0 1rem;
+    margin-top: 1rem;
+}
+
+
+/* PAGE ORDER */
+
+#order {
+    padding: 2rem 2rem 2rem;
+    height: auto;
+    width: 45vw;
+    border-radius: 1rem;
+
+}
+
+.menuCard {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    margin-top: 0.5em;
+}
+
+.menuCard>div {
+    font-size: 2rem;
+    border: 1px solid black;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+    background-color: rgb(223, 236, 245);
+    margin-right: 1rem;
+}
+
+.menuCard h4 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menuCard p {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.command {
+    float: right;
+    border-radius: 0.4rem;
+    background-color: rgb(53, 126, 223);
+    color: white;
+}
+
+/* PAGE PLATE */
+
+#plates {
+    padding: 2rem 2rem 2rem;
+    height: 80vh;
+    width: 45vw;
+    border-radius: 1rem;
+
+}
+
+#plateBlock {
+
+    height: auto;
+    width: 45vw;
+
+}
+
+#inProgress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem 1rem;
+    margin: auto;
+    height: 20em;
+    width: 20em;
+    background-color: rgb(240, 238, 238);
+}
+
+#inProgress>div{
+    font-size: 6rem;
+    border: 1px solid rgb(0, 202, 0);
+    border-radius: 0.5rem;
+}
+
+#inProgress>h4{
+    font-size: 1.5rem;
+    color: rgb(0, 202, 0);
+ 
+}
+
+#inProgress>p{
+    font-weight: bold;
+}
+
+/* ========================================
+   PAGE KITCHEN
+   ======================================== */
+
+#kitchen {
+    padding: 2rem;
+    width: 90vw;
+    max-width: 1400px;
+}
+
+#kitchenOrders {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.kitchen-section {
+    flex: 1;
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    min-height: 400px;
+}
+
+.kitchen-section h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #ddd;
+}
+
+.orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.kitchen-order-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.kitchen-order-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.order-id {
+    font-weight: bold;
+    color: #357ede;
+}
+
+.order-client {
+    font-weight: bold;
+    color: #333;
+}
+
+.order-body {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.order-image {
+    font-size: 2.5rem;
+    background-color: #dff0f5;
+    border: 1px solid #357ede;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-details h4 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1rem;
+}
+
+.order-details small {
+    color: #666;
+}
+
+.order-actions {
+    margin-top: 0.5rem;
+}
+
+.order-actions button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+.order-actions button:hover {
+    opacity: 0.8;
+}
+
+.btn-ready {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-deliver {
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    #kitchenOrders {
+        flex-direction: column;
+    }
+}
